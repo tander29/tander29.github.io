@@ -8,11 +8,12 @@ import store from "./Redux/Store";
 import "react-mdl/extra/material.css";
 import "react-mdl/extra/material.js";
 import { BrowserRouter } from "react-router-dom";
+import { ConnectedRouter } from "connected-react-router";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <App />
     </BrowserRouter>
   </Provider>,
