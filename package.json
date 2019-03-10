@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tander29.github.io",
+  "homepage": "https://tander29.github.io/",
   "dependencies": {
     "connected-react-router": "^6.3.1",
     "gh-pages": "^2.0.1",
